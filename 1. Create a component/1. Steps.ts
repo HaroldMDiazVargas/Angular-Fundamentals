@@ -1,6 +1,6 @@
 
 //--------------------------------------------------------------------------------------------------------
-//1st Step -Create ts component
+//1st Step -Create ts component(courses.component.ts)
 //Decorator Component make a class component
 import { Component } from '@angular/core'; 
 
