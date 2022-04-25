@@ -8,11 +8,10 @@ import { Component } from '@angular/core';
 }) 
 export class CoursesComponent{
     title = "List of Courses";
-    courses 
+
 
     getTitle() {
         return this.title;
     }
 
 }
-`` //BackTick 
