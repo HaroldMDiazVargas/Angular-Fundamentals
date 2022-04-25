@@ -13,5 +13,4 @@ export class CoursesComponent{
     getTitle() {
         return this.title;
     }
-
 }
