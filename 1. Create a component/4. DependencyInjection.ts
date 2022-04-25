@@ -45,3 +45,4 @@ providers :[
 ]
 // Angular creates a SINGLE instance of this class(CoursesServices) for the entire module. 
 // SINGLETON pattern -> Single instance of a given object exist in the memory
+// Angular -> 1.Instance the dependencies 2.Inject dependencies into constructor of the class
