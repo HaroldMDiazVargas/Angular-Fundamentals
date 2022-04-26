@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AuthorsComponent implements OnInit {
   authors;
-  constructor(service:EmailService) {
+  constructor(service:EmailService ) {
           this.authors = service.getAuthor();
    }
 
