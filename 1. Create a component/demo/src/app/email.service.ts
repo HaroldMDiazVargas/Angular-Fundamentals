@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class EmailService {
-  authors = ['author1','author2','author3'];
+  authors = ['author1','author2','author3' ];
   // constructor() { }
 
   getAuthor(){
