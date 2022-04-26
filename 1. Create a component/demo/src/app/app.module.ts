@@ -1,3 +1,4 @@
+import { EmailService } from './email.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -14,7 +15,7 @@ import { AuthorsComponent } from './authors/authors.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [EmailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
