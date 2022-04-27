@@ -63,7 +63,7 @@ export class CoursesComponent {
 // In angular we have special syntax for implmenting TWO-WAY BINDING => Directive called ngModel
 // DOM not have ngModul property => Agular adds to the DOM object
 // The implementation is encapsulated in the ngModel directive to avoid repeat the code everytime.
-// ngModel directive define what of Angular model (core, browser, forms, animations,etc) called.
+// ngModel directive is defined what of Angular model (core, browser, forms, animations,etc) called.
 // By default is not import in apps => Explicitly import ===>
 
 // Go src/app/app.module.ts => 
