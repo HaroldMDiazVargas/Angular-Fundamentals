@@ -1,8 +1,10 @@
+import { TitleCase } from './title-case.pipe';
 import { AuthorsComponent } from './authors/authors.component';
 import { EmailService } from './email.service';
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,11 +17,13 @@ import { InputFormComponent } from './input-form/input-form.component';
     AppComponent,
     AuthorsComponent,
     FavoriteComponent,
-    InputFormComponent
+    InputFormComponent,
+    TitleCase
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [EmailService],
   bootstrap: [AppComponent]
