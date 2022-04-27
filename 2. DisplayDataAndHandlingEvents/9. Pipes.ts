@@ -31,7 +31,7 @@ import { Component } from '@angular/core';
 
 export class CoursesComponent{
     course = {
-        title: "The complete Angular Course",
+        title: "The Complete Angular Course",
         rating: 4.9745,
         students: 30123,
         price: 190.95,
