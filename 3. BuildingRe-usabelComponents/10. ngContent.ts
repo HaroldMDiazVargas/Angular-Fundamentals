@@ -38,12 +38,12 @@ export class PanelComponent{
 // So if the consumer has an element that MATCHES the selector(with.heading class) => Element replaces instead of ng-content
 
 <div class="panel panel-default">
-<div class="panel-heading">
-<ng-content select=".heading"></ng-content> 
-</div>
-<div class="panel-body">
-<ng-content select=".body"></ng-content>
-</div>
+    <div class="panel-heading">
+        <ng-content select=".heading"></ng-content> 
+    </div>
+    <div class="panel-body">
+        <ng-content select=".body"></ng-content>
+    </div>
 </div>
 
 // app.component-html:
