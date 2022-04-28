@@ -1,19 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'favorite',
   templateUrl: './favorite.component.html',
-  styleUrls: ['./favorite.component.css']
+  styleUrls: ['./favorite.component.css'],
+  encapsulation: ViewEncapsulation.Emulated
 })
-export class FavoriteComponent implements OnInit {
+export class FavoriteComponent {
   // isFavorite!:boolean;
   isFavorite = false;
-  constructor() {
 
-   }
-   
-   ngOnInit(): void {
-  }
+
   
   clicked(){
     this.isFavorite = !this.isFavorite;
