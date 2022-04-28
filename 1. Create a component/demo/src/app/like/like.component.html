@@ -1,1 +1,15 @@
-<p>like works!</p>
+<!-- <span class="fa-heart fa-solid"></span>
+<span class="fa-heart fa-regular"></span>
+<p>0</p> -->
+<!-- [style.color]= "isSelected ? 'deeppink': '#ccc' " -->
+<div class="like">
+
+    <span class="fa-heart fa-solid"
+    [class.highlighted] = "isSelected"
+    (click)="clicked()"
+    >
+    </span>
+    <span>{{ likesCount }}</span>
+
+</div>
+
