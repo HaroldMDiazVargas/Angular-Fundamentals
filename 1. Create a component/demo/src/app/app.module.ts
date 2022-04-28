@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { InputFormComponent } from './input-form/input-form.component';
+import { LikeComponent } from './like/like.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { InputFormComponent } from './input-form/input-form.component';
     AuthorsComponent,
     FavoriteComponent,
     InputFormComponent,
-    TitleCase
+    TitleCase,
+    LikeComponent
   ],
   imports: [
     BrowserModule,
