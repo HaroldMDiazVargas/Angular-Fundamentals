@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./favorite.component.css']
 })
 export class FavoriteComponent implements OnInit {
-  isActive = false;
+  isFavorite = false;
   constructor() {
 
    }
@@ -15,7 +15,7 @@ export class FavoriteComponent implements OnInit {
   }
   
   clicked(){
-    this.isActive = !this.isActive;
+    this.isFavorite = !this.isFavorite;
    }
    
    
