@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { InputFormComponent } from './input-form/input-form.component';
 import { LikeComponent } from './like/like.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LikeComponent } from './like/like.component';
     FavoriteComponent,
     InputFormComponent,
     TitleCase,
-    LikeComponent
+    LikeComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
