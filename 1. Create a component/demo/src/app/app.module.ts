@@ -12,6 +12,7 @@ import { FavoriteComponent } from './favorite/favorite.component';
 import { InputFormComponent } from './input-form/input-form.component';
 import { LikeComponent } from './like/like.component';
 import { ZippyComponent } from './zippy/zippy.component';
+import { CourseFormComponent } from './course-form/course-form.component';
 
 
 
@@ -23,7 +24,8 @@ import { ZippyComponent } from './zippy/zippy.component';
     InputFormComponent,
     TitleCase,
     LikeComponent,
-    ZippyComponent
+    ZippyComponent,
+    CourseFormComponent
   ],
   imports: [
     BrowserModule,
