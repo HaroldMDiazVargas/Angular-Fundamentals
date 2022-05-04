@@ -88,7 +88,7 @@ export class PostService{
         return this.http.delete(this.url +'/'+ id)
         .catch((error:Response) =>{
             if(error.status === 404)
-                return Observable.throw(new NotFoundError());Observable.throw(new AppError(error))
+                return Observable.throw(new NotFoundError());//Observable.throw(new AppError(error))
             return Observable.throw(new AppError(error));
 
         });
