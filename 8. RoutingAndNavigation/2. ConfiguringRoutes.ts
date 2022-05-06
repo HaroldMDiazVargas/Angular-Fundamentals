@@ -36,6 +36,18 @@
 // ... Now GitHubProfile will be show when we look at profile of a given follower
 // 10. Reformat the code
 
+// Recap routes defined:
+
+// RouterModule.forRoot([
+//   { path: '', component: HomeComponent },
+//   { path: 'followers/:username', component: GitHubProfileComponent },
+//   { path: 'followers', component: GitHubFollowersComponent },
+//   { path: 'posts', component: PostsComponent },
+//   { path: '**', component: NotFoundComponent }
+// ])
+
+
+
 //-------------------------------------------------------navbar component--------------------------------------------------------------------
 // Create a navbar.component.ts
 
