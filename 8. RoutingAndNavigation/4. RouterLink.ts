@@ -14,16 +14,16 @@
 
 // Now add link in github-followers.html => replaces href with routerLink => // <a routerLink="dynamic">{{ follower.login }}</a> => This is a link for each follower
 // However this time we are dealing with dynamic url => so the parameter e.x "/followers/1" => should be render dynamically(here the parameter for example is 1)
-// When we are dealing with raw parameters => instead of using routerLink as attribute => We use the property binding syntax => and binding to an expression
+// When we are dealing with route parameters => instead of using routerLink as attribute => We use the property binding syntax => and binding to an expression
 // <a [routerLink]="expression">{{ follower.login }}</a> => <a [routerLink]="['/followers', followers.login]">{{ follower.login }}</a> 
 // In the array:
 // 1rst element => path => '/followers'
-// After this 1st element => Add all raw parameters => currently we have only 1 raw parameter => follower.login(username) or follower.id(userID)
+// After this 1st element => Add all route parameters => currently we have only 1 route parameter => follower.login(username) or follower.id(userID)
 // Now if we click on browser => localhost:4200/followers/10586972 
 
 // Recap:
 // For simple routes => Use routerLink directive as attribute => Set to string value
-// For raw parameters(dynamic) => Use routerLink directive as property binding => Set the property to an array "['path', rawArguments...]"
+// For route parameters(dynamic) => Use routerLink directive as property binding => Set the property to an array "['path', rawArguments...]"
 
 
 
