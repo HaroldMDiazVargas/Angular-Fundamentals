@@ -267,6 +267,8 @@ export class AuthService {
 
     get currentUser(){
         let token = localStorage.getItem('token');
+        if (!token) return null;
+        
         return new JwtHelper().decodeToken(token);
     }
 }
