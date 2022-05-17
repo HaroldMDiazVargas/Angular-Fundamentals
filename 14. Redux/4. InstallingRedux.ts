@@ -63,3 +63,12 @@ export interface IAppState{
 export function rootReducer(state, action){
     return state;
 }
+
+// app.module.ts
+
+// below....
+export class AppModule{
+    constructor(ngRedux: NgRedux<IAppState>){
+        ngRedux.configureStore(rootReducer, {})
+    }
+}
